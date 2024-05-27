@@ -1,5 +1,7 @@
 For English speakers, this tool is written in English.
 
+※PHPを動かすことができる環境を想定しています。PHPを導入していない場合はPHPを導入してから実行してください
+
 このツールで出来ること
 1.PHPをpharにPackage
 2.pharをUnPackage
