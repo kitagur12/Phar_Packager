@@ -11,7 +11,7 @@ echo                      ______                           __/ ^|
 echo                    ^|______^|                         ^|___/           
 echo ㅤ
 echo Run [91mPhar_UnPackage[37m
-set /p aaa="Please enter phar file name
+set /p aaa="Please enter phar file name:
 set folderPath=%~dp0
 set oldFolderName=%aaa%
 set newFolderName=0c13a469-076c-4d70-987e-d3c33d411e66
