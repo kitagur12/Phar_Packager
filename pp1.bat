@@ -11,12 +11,12 @@ echo                      ______                           __/ ^|
 echo                    ^|______^|                         ^|___/           
 echo ㅤ
 echo Run [92mPhar_Package[37m
-set /p aaa="フォルダ名を入力してください"
+set /p aaa="Please enter folder name"
 set folderPath=%~dp0
 set oldFolderName=%aaa%
 set newFolderName=de2a7687-39c8-4ea4-a852-ecdb319ec1fd
 if not exist "%folderPath%\%oldFolderName%" (
-    echo 変更前のフォルダが存在しないため、処理を停止します。
+    echo [91mProcessing will be stopped because the folder before modification does not exist.[37m
 del pp1.bat
 pause
 exit
@@ -38,6 +38,6 @@ if exist "%folderPath\%%newFolderName%" (
 del %~dp0%aaa%.phar
 )
 ren "%folderPath%\%oldFolderName%" "%newFolderName%"
-echo 正常に作成できました
+echo [92mCreated successfully[37m
 del pp1.bat
 exit
