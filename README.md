@@ -8,3 +8,5 @@ For English speakers, this tool is written in English.
 1.Phar_Packager.batをダウンロードする
 2.Package,UnPackageしたいフォルダがあるところにbotファイルを移動し、実行
 3.あとはツールの説明に従う
+
+要約:リリースの奴ダウンロードしてダブルクリック！（）
