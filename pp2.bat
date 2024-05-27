@@ -21,9 +21,15 @@ del pp2.bat
 pause
 exit
 )
-del %aaa%_archive/
+if exist "%~dp0%aaa%_archive" (
+echo %~dp0%aaa%_archive
+del /q  %~dp0%aaa%_archive
+RD /S /Q %~dp0%aaa%_archive
+)
+
+
 ren "%folderPath%\%oldFolderName%.phar" "%newFolderName%.phar"
-copy "C:\Program Files\pp2.php" "%~dp0"
+copy "C:\Program Files\Phar_Packager\pp2.php" "%~dp0"
 php pp2.php
 
 set folderPath=%~dp0

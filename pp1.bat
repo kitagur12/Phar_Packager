@@ -22,7 +22,7 @@ pause
 exit
 )
 ren "%folderPath%\%oldFolderName%" "%newFolderName%"
-copy "C:\Program Files\pp1.php" "%~dp0"
+copy "C:\Program Files\Phar_Packager\pp1.php" "%~dp0"
 php pp1.php
 
 set folderPath=%~dp0
