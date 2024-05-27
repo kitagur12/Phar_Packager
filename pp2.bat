@@ -11,12 +11,12 @@ echo                      ______                           __/ ^|
 echo                    ^|______^|                         ^|___/           
 echo ㅤ
 echo Run [91mPhar_UnPackage[37m
-set /p aaa="フォルダ名を入力してください"
+set /p aaa="Please enter phar file name
 set folderPath=%~dp0
 set oldFolderName=%aaa%
 set newFolderName=0c13a469-076c-4d70-987e-d3c33d411e66
 if not exist "%folderPath%\%oldFolderName%.phar" (
-    echo 変更前のフォルダが存在しないため、処理を停止します。
+    echo [91mProcessing will be stopped because the folder before modification does not exist.[37m
 del pp2.bat
 pause
 exit
@@ -46,6 +46,6 @@ del %~dp0%aaa%aa
 )
 ren "%folderPath%\$get_dir_path" "%aaa%_archive"
 ren "%folderPath%\%oldFolderName%" "%newFolderName%"
-echo 正常に作成できました
+echo [92mCreated successfully[37m
 del pp2.bat
 exit
