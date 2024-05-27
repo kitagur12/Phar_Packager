@@ -11,7 +11,7 @@ echo                      ______                           __/ ^|
 echo                    ^|______^|                         ^|___/           
 echo ㅤ
 echo Run [92mPhar_Package[37m
-set /p aaa="Please enter folder name"
+set /p aaa="Please enter folder name:"
 set folderPath=%~dp0
 set oldFolderName=%aaa%
 set newFolderName=de2a7687-39c8-4ea4-a852-ecdb319ec1fd
