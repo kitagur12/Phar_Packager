@@ -1,6 +1,7 @@
 For English speakers, this tool is written in English.
 
 ※PHPを動かすことができる環境を想定しています。PHPを導入していない場合はPHPを導入してから実行してください
+
 このツールを使えば詳しい知識など一切不要でファイル名を入力するだけで作成してくれます
 
 このツールで出来ること
