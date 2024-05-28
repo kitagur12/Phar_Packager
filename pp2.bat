@@ -16,7 +16,7 @@ set folderPath=%~dp0
 set oldFolderName=%aaa%
 set newFolderName=0c13a469-076c-4d70-987e-d3c33d411e66
 if not exist "%folderPath%\%oldFolderName%.phar" (
-    echo [91mProcessing will be stopped because the folder before modification does not exist.[37m
+    echo [91mProcessing will be stopped because the file before modification does not exist.[37m
 del pp2.bat
 pause
 exit
